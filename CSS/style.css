@@ -1,0 +1,188 @@
+#wrapper
+{
+	margin: auto;
+	max-width: 1500px;
+	width: 100%;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---------------Navbar-------------*/
+.headercol1
+{
+	width: 20%;
+	float: left;
+	font-family: 'Arvo', serif; 
+	background-color: #e3f2fd;
+	text-align: center;
+}
+#headercol1_para
+{
+	text-align: center;
+	height: 30px;
+}
+#analyti_size
+{
+	font-size:30px;
+}
+#x_size
+{
+	color: #63a4ff;
+    font-size: 31px;
+}
+.blank
+{
+	width: 24.45%;
+	height: 20%;
+	float: left;
+	background-color: #000063;
+}
+.fivepart
+{
+	width: 55.55%;
+	float: left;
+	color: #63a4ff;
+	background-color: #000063;
+	font-family: 'Berkshire Swash', cursive;
+	/*font-family: 'Crete Round', serif;*/
+}
+.row
+{
+	width: 100%;
+	overflow: hidden;
+	/*position: fixed;*/
+}
+.fivepart a
+{
+	color: #63a4ff;
+	text-decoration: none;
+	padding: 25px 30px;
+	font-size: 23px;
+	background:rgba(222, 240, 242,0);
+	transition-duration: 1s;
+}
+.fivepart a:hover
+{
+	filter: brightness(60%);
+}
+p span
+{
+	text-align: center;                                                                                           
+	color: #63a4ff;                                                                                                                  
+}
+
+/*------------img-----------*/
+.middle
+{
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	background: black;
+}
+.middle img
+{
+	width:100%; 
+	height:580px; 
+	overflow: hidden; 
+	opacity: 0.5;
+}
+.firsttext
+{
+  color: #63a4ff;
+  font-size: 55px;
+  top: 30%;
+  left: -1%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  opacity:1;
+  transition-duration: 1s;
+}
+.secondtext
+{
+  color: #63a4ff;
+  font-size: 25px;
+  top: 65%;
+  left: -1%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition-duration: 1s
+}
+
+/*-------------------About----------------*/
+.grid
+{
+	height: 800px;
+	background-color: #bdbdbd;
+	margin-top: -20px;
+	margin-bottom: -350px;
+}
+
+.round_image_left
+{
+  width: 35%; 
+  float: right;
+  margin-right:35%;
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+  margin-top:0%; 
+  position: relative;
+}
+.grid1_para
+{
+	line-height: 1.8;
+	text-align: center;
+	right: 26%;
+	width: 40%;
+	/*padding: 330px 800px;
+	/*margin-left: 400px;*/
+	padding-top: 330px; 
+	padding-left: 750px;
+	position: relative;
+
+	
+}
+
+.nextpage a
+{
+	text-decoration: none;
+}
+.nextpage
+{
+	margin-left: 615px;
+}
+
+
+/*-----------------------------------------------for extra small devices-------------------------------------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 480px)
+{
+	.headercol1
+	{
+		width: 30%;
+	}
+	#headercol1_para
+	{
+		
+		height: 30px;
+	}
+	#analyti_size
+	{
+		font-size:10px;
+	}
+	#x_size
+	{
+		font-size:12px;
+	}
+
+
+
+
+
+
+}

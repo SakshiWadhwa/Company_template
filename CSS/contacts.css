@@ -1,0 +1,165 @@
+#wrapper
+{
+	margin: auto;
+	max-width: 1500px;
+	width: 100%;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---------------Navbar-------------*/
+.headercol1
+{
+	width: 20%;
+	float: left;
+	font-family: 'Arvo', serif; 
+	background-color: #e3f2fd;
+	text-align: center;
+}
+.blank
+{
+	width: 24.45%;
+	height: 20%;
+	float: left;
+	background-color: #000063;
+}
+.fivepart
+{
+	width: 55.55%;
+	float: left;
+	color: #63a4ff;
+	background-color: #000063;
+	font-family: 'Berkshire Swash', cursive;
+	/*font-family: 'Crete Round', serif;*/
+}
+.row
+{
+	width: 100%;
+	overflow: hidden;
+	/*position: fixed;*/
+}
+.fivepart a
+{
+	color: #63a4ff;
+	text-decoration: none;
+	padding: 25px 30px;
+	font-size: 23px;
+	background:rgba(222, 240, 242,0);
+	transition-duration: 1s;
+}
+.fivepart a:hover
+{
+	filter: brightness(60%);
+	transition-duration: 1s;
+}
+p span
+{
+	text-align: center;                                                                                           
+	color: #63a4ff;                                                                                                                  
+}
+
+/*-----Contact--------*/
+#Contact_section
+{
+	margin: auto;
+	max-width: 1500px;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+.bgimg img
+{
+	position: relative;
+	height: 564px;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.5;
+}
+.bgimg
+{
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	background: black;
+	position: relative;
+	width: 100%;
+	height: 567px;
+}
+.text_img
+{
+	position: absolute;
+	top: 1%;
+	left: 38%;
+}
+.text_img p
+{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 55px;
+}
+.enquiry
+{
+	position: absolute;
+	top: 27%;
+	left: 15%;
+}
+.enquiry p, h2
+{
+	color: white;
+	font-size: 20px;
+}
+.form_enquiry
+{
+	top: 53%;
+	position: absolute;
+	left: 15%;
+}
+#button
+{
+	color: #F5F5F5;
+	background-color: black;
+}
+.add_enquiry
+{
+	position: absolute;
+	top: 27%;
+	right: 15%;
+	color: white;
+	font-size: 20px;
+}
+.emp_enquiry
+{
+	position: absolute;
+	top:63%;
+	color: white;
+	right: 1%;
+}
+.emp_enquiry h2, p
+{
+	font-size: 20px;
+}
+.icon_enquiry
+{
+	position: absolute;
+	top: 85%;
+	left: 38%;
+	color: white;
+}
+.icon_enquiry i
+{
+	font-size:20px;
+	letter-spacing: 10px;
+	line-height: 3px;
+}
+.clearfix
+{
+	clear: both;
+}
+
+/*----------top icon----------*/
