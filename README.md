@@ -1,3 +1,4 @@
-Template of Company/n
+Template of Company
+
 Technologies used: HTML and CSS.
 
