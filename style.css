@@ -1,0 +1,300 @@
+#wrapper
+{
+	margin: auto;
+	max-width: 1500px;
+	width: 100%;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---------------Navbar-------------*/
+.headercol1
+{
+	width: 20%;
+	float: left;
+	font-family: 'Arvo', serif; 
+	background-color: #e3f2fd;
+	text-align: center;
+}
+#headercol1_para
+{
+	text-align: center;
+	height: 30px;
+}
+#analyti_size
+{
+	font-size:30px;
+}
+#x_size
+{
+	color: #63a4ff;
+    font-size: 31px;
+}
+.blank
+{
+	width: 24.45%;
+	float: left;
+	background-color: #000063;
+}
+.blank p
+{
+	height: 30px;
+}
+.fivepart
+{
+	width: 55.55%;
+	float: left;
+	height: 61.5px;
+	margin: 0px;
+	background-color: #000063;
+}
+.fivepart li
+{
+	 text-align: center;
+	 float: left;
+}
+ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    height: 30px;
+    font-size: 18px;
+    color: #63a4ff;
+  	font-weight: bold;
+  	margin-top: 15px;
+}
+li a
+{
+	color: #63a4ff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+	font-size: 23px;
+	background:rgba(222, 240, 242,0);
+	transition-duration: 1s;
+	margin-right: 65px;
+}
+li a:hover
+{
+	filter: brightness(60%);
+}
+.row
+{
+	width: 100%;
+	overflow: hidden;
+	/*position: fixed;*/
+}
+/*--------------------------------------------------img-----------------------------------------------------*/
+.middle
+{
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	background: black;
+}
+.middle img
+{
+	width:100%; 
+	height:580px; 
+	overflow: hidden; 
+	opacity: 0.5;
+	margin-bottom: -4px;
+}
+.firsttext
+{
+  color: #63a4ff;
+  font-size: 55px;
+  top: 30%;
+  left: -1%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  opacity:1;
+  transition-duration: 1s;
+}
+.secondtext
+{
+  color: #63a4ff;
+  font-size: 25px;
+  top: 65%;
+  left: -1%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition-duration: 1s
+}
+
+/*---------------------------------------------------------About---------------------------------------------------------*/
+#about_us
+{
+	text-align: center;
+	height: 30px;
+}
+#about_us_head
+{
+	font-size:38px;
+    color: #000063;
+}
+#about_us_lines
+{
+	text-align: center;
+	height: 30px;
+}
+#blank_space p
+{
+	height: 80px;
+}
+.grid
+{
+	height: 800px;
+	background-color: #bdbdbd;
+	margin-top: -20px;
+	margin-bottom: -350px;
+}
+.round_image_left
+{
+  width: 35%; 
+  float: right;
+  margin-right:35%;
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+  margin-top:0%; 
+  position: relative;
+}
+.grid1_para
+{
+	line-height: 1.8;
+	text-align: center;
+	right: 26%;
+	width: 40%;
+	/*padding: 330px 800px;
+	/*margin-left: 400px;*/
+	padding-top: 330px; 
+	padding-left: 750px;
+	position: relative;
+}
+.nextpage a
+{
+	text-decoration: none;
+}
+.nextpage
+{
+	margin-left: 615px;
+}
+
+/*-----------------------------------------------for extra small devices-------------------------------------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 480px)
+{
+	
+	#headercol1_para
+	{
+		
+		height: 17px;
+	}
+	#analyti_size
+	{
+		font-size:13px;
+	}
+	#x_size
+	{
+		font-size:14px;
+	}
+	.blank
+	{
+		width: 7%;
+	}
+	.blank p
+	{
+		height: 17px;
+	}
+	/*-----------------------------------------Navbar----------------------------------------------------*/
+	.fivepart
+	{
+		width: 73%;
+		height: 49px;
+	}
+	ul
+	{
+	    height: 30px;
+	  	display: inline;
+	  	margin-right: -44px;
+	}
+	li a
+	{
+		font-size: 13px;
+		margin-right: 7px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	/*---------------------------------------img txt------------------------------------------------------*/
+	.middle img
+	{
+		height:410px; 
+	}
+	.firsttext
+	{
+	  font-size: 25px;
+	  top: 15%;
+	}
+	.secondtext
+	{
+	  font-size: 16px;
+	  top: 55%;
+	  margin-left: 2px;
+	  text-align: center;
+	}
+	/*-----------------------------------About-----------------------------------------------------------------*/
+
+	#about_us
+	{
+		height: 5px;
+	}
+	#about_us_head
+	{
+		font-size:25px;
+	}
+	#about_us_lines
+	{
+		font-size: 13px;
+		height: 30px;
+		line-height: 1.5;
+	}
+	#blank_space p
+	{
+		height: 10px;
+	}
+	.grid
+	{
+		height: 500px;
+		margin-top: -20px;
+	}
+	.round_image_left
+	{
+	  margin-right:35%;
+	}
+	.grid1_para
+	{
+		line-height: 1.5;
+		text-align: center;
+		font-size: 13px;
+		width: 80%;
+		padding-top: 100px; 
+		padding-left: 110px;
+	}
+	.nextpage
+	{
+		margin-left: 90px;
+	}
+
+
+
+
+
+
+
+}
